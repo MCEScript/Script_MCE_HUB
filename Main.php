@@ -1,5 +1,5 @@
 local key = _G.Key
-local check = "https://raw.githubusercontent.com/MCEScript/Script_MCE_HUB/main/Check.php?key=" .. key
+local check = "https://bfprojetct.000webhostapp.com/check.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MCEScript/Script_MCE_HUB/main/Main-Script.lua"))()
 else
