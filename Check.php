@@ -18,8 +18,6 @@ $keys = array(
 "CHIZURU",
 
 "MASHIRO",
-
-"EMILIA"
 ); 
 $sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
